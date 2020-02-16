@@ -18,7 +18,7 @@
 			<section id="header" class="dark">
 				<header>
 					<h1>Computational Systems and Synthetic Biology</h1>
-					<p>Chris Barnes' research group at University College London</a></p>
+					<p>Research group at University College London</a></p>
 				</header>
 				<footer>
 					<a href="#projects" class="button scrolly">What do we do?</a>
@@ -30,20 +30,9 @@
 				<!-- PROJECTS - intro -->
 				<header>
 					<div class="container">
-						<h2>Our goal is to make biology more predictive.</h2>
+						<h2>quantitative biology + synthetic biology + systems biology</h2>
 						<p>Our group applies mathematical modelling, experimental methods and Bayesian statistics
-						to problems in systems and synthetic biology.</p>
-						
-						<p>We build models of biological systems expressed as dynamical systems 
-						(differential equations, stochastic processes) in order to better understand them, elucidate
-						their regulatory mechanisms and enable us to engineer them for therapeutic purposes. We use
-						techniques from molecular biology, fluorescent time course microscopy and flow cytometry to
-						test model predictions and to help us better understand the underlying biology so that we
-						can create more accurate representations.</p>
-						
-						<p>Our current research areas include developing methods for engineering more robust synthetic
-						biological systems, dynamical modelling of the DNA damage response and understanding the
-						signalling mechanisms controlling phospholipid metabolism.</p>
+						to problems in biology.</p>
 					</div>
 				</header>
 				<!-- PROJECTS - details -->
@@ -55,31 +44,31 @@
 								<section>
 									<span class="feature-icon"><a href="#cancer_popup" class="icon solid fa-dna"></a></span>
 									<header>
-										<h3>Cancer Genetics</h3>
+										<h3>Mutational processes</h3>
 									</header>
 								</section>
 							</div>
 							<div class="col-3 col-12-narrow">
 								<section>
-									<span class="feature-icon"><a href="#biosensors_popup" class="icon solid fa-microscope"></a></span>
+									<span class="feature-icon"><a href="#microbiome_popup" class="icon solid fa-microscope"></a></span>
 									<header>
-										<h3>Biosensors</h3>
+										<h3>Microbiome engineering</h3>
 									</header>
 								</section>
 							</div>
 							<div class="col-3 col-12-narrow">
 								<section>
-									<span class="feature-icon"><a href="#spatial-section" class="icon scrolly solid fa-braille"></a></span>
+									<span class="feature-icon"><a href="#grn_popup" class="icon solid fa-share-alt"></a></span>
 									<header>
-										<h3>Spatial Computing</h3>
+										<h3>Gene regulatory networks</h3>
 									</header>
 								</section>
 							</div>
 							<div class="col-3 col-12-narrow">
 								<section>
-									<span class="feature-icon"><a href="#consortia-section" class="icon scrolly solid fa-comments"></a></span>
+									<span class="feature-icon"><a href="#biocomp_popup" class="icon solid fa-microchip"></a></span>
 									<header>
-										<h3>Microbial Consortia</h3>
+										<h3>Biological computing</h3>
 									</header>
 								</section>
 							</div>
@@ -93,27 +82,67 @@
 						<!--- THIS IS ONE POPUP BLOCK ----->
 						<a href="#x" class="overlay" id="cancer_popup"></a> <!---  ----->
 						<div class="popup">
-							<h2>Cancer genetics</h2> <!---  ----->
-							<p>Over recent years it has become clear that structural variation (SV) accounts for a
-							highly significant fraction of human polymorphisms. In addition cancer cells can exhibit
-							large amounts of SV in addition to point mutations. These mutations arise from erroneous
-							repair of double strand breaks (DSBs) which occur naturally by endogenous processes and
-							replication error. Currently we are applying mechanistic modelling and statistical inference
-							in order to try to elucidate these different mechanisms from existing data sets.</p>
+							<h2>Mutational processes</h2> <!---  ----->
+							<p>We focus on the mechanistic modelling of genetic and sequence data to try to infer the biological processes that shape genomes.
+						  We have developed evolutionary models that can be fit to cancer patient sequencing data to infer important parameters such as
+						  mutation rates and selection coefficients. We are currently working on modelling structural variation and chromosome instability
+						  to try to understand how these important processes contribute to intra-tumour heterogeneity.
+							</p>
+							<footer>
+							  <a href="#research_cancer" class="button scrolly">Read more</a>
+							</footer>
 							<a class="close" href="#close"></a>
 						</div>
 						<!--- END BLOCK ----->
-						<a href="#x" class="overlay" id="biosensors_popup"></a>
+
+						<a href="#x" class="overlay" id="microbiome_popup"></a>
 						<div class="popup">
-							<h2>Biosensors</h2>
+						        <h2>Microbiome engineering</h2>
 							<p>The human intestine and the wide range of prokaryotic and eukaryotic organisms it supports
 							form a mutualistic host-microbe symbiotic system crucial for many processes including the
 							breakdown of plant polysaccharides and microbial fermentation. Variation and disruption of
 							this natural ecosystem is linked to a diverse array of disorders including infectious disease,
 							autoimmunity, obesity and cancer. We are engineering probiotic strains for therapeutic and
 							sensing applications, plus understanding how to engineer microbial consortia.</p>
+							<footer>
+							  <a href="#research_microbiome" class="button scrolly">Read more</a>
+							</footer>
 							<a class="close" href="#close"></a>
-						</div>							
+						</div>
+						<!--- END BLOCK ----->
+
+						<a href="#x" class="overlay" id="grn_popup"></a>
+						<div class="popup">
+						        <h2>Gene regulatory networks</h2>
+						        <p>Using model space exploration from Bayesian statistics we have developed and parameterised a
+							number of models of morphogenesis in collaboration with developmental biologists. We have also
+							used the same methods to examine the robustness of simple gene networks in the context of
+							  synthetic biology, including the dynamics of multi-functional networks.</p>
+							<footer>
+							  <a href="#research_grn" class="button scrolly">Read more</a>
+							</footer>
+							<a class="close" href="#close"></a>
+						</div>
+						<!--- END BLOCK ----->
+
+						<a href="#x" class="overlay" id="biocomp_popup"></a>
+						<div class="popup">
+						        <h2>Biological computing</h2>
+						        <p>Biological organisms comprise complex information processing systems and computation is present at
+							  every level, from protein and DNA nanomachines, through cellular gene and signalling
+							  networks to tissues, brains and ecosystems. Thus, computation can be seen to be a
+							  fundamental and unifying theme of biology. This computation is performed in a highly parallel and
+							  robust fashion, using concurrent, multi-scale hybrid digital and analogue processing, often utilising
+							  components that are unreliable and noisy, and at orders of magnitude lower power requirements than
+							  traditional, “silicon” computing. Understanding how biological computing is performed thus has enormous
+							  potential for driving forward biology and engineering, enabling a more sustainable future in an increasingly
+							  computation-dependent world.</p>
+							<footer>
+							  <a href="#research_biocomp" class="button scrolly">Read more</a>
+							</footer>
+							<a class="close" href="#close"></a>
+						</div>
+						<!--- END BLOCK ----->
 					</div>				
 				</div>
 			</section>
@@ -124,8 +153,7 @@
 				<header>
 					<div class="container">
 						<h2>Interdisciplinary and collaborative</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+						<p>We have backgrounds ranging across physics, computer science, microbiology, synthetic biology and genetics.</p>
 					</div>
 				</header>
 				<!-- PEOPLE - details -->
@@ -135,16 +163,45 @@
 						<div class="row">
 							<div class="col-12 col-12-narrow">
 								<div class="row">									
-									<div class="col-3"><a href="#Chris_Barnes" class="image fit"><img src="images/professor.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/disappointed-female-scientist.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/chinese-female-scientist.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/sn89q0jludi01.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/asian-female-scientist.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/scientist-thinking.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/th6HE7TRVN.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/Bad-Stock-Photos-of-My-Job.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/anonymous_897439873434.jpg" alt="" /></a></div>
-									<div class="col-3"><a href="#" class="image fit"><img src="images/crazy-scientist.jpg" alt="" /></a></div>
+								  <div class="col-3"><a href="#Chris_Barnes" class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Prof. Chris P Barnes
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Dr Linda Dekker
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Dr Alex Fedorec
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Dr Bingxin Lu
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Dr Ke Yan Wen
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Luca Rosa
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Behzad Karkaria
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Jack Rutter
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Neythen Treloar
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Clare Robinson
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Clemens-Hugo Schally
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Sam Winnall
+								  </div>
+								  <div class="col-3"><a class="image fit"><img src="images/professor.jpg" alt="" /></a>
+								    Simone DeAngelis
+								  </div>
 								</div>
 							</div>
 						</div>
@@ -152,13 +209,114 @@
 						<!--- THIS IS ONE POPUP BLOCK ----->
 						<a href="#x" class="overlay" id="Chris_Barnes"></a>
 						<div class="popup">
-							<h2>Prof. Chris Barnes</h2>
-							<p>Something about being the boss.</p>
+							<h2>Prof. Chris Barnes <br> christopher.barnes@ucl.ac.uk </h2>
+							<p>I'm a Professor in the Division of Biosciences within the Faculty of Life Sciences at
+							  University College London. My career has spanned multiple fields including particle
+							  physics, genetics, statistics, computational systems biology and synthetic biology. In
+							  addition to my research, I'm also actively engaged in training the next generation of
+							  researchers; I developed the BBSRC funded e-learning resource <a href=http://www.sysmic.ac.uk> SysMIC </a>
+							  to train life scientists in computational and mathematical skills. I'm also involved in running the
+							  EPSRC funded Centre for Doctoral Training in BioDesign Engineering and the LIDo Doctoral Training Partnership.</p>
 							<a class="close" href="#close"></a>
 						</div>
 						<!--- END BLOCK ----->
 					</div>
 				</div>
+			</section>
+
+			<section id="research_cancer" class="main">
+				<header>
+					<div class="container">
+						<h2>Mutational processes</h2>
+						<p>Quantification of subclonal selection in cancer from bulk sequencing data
+						   Williams, M.J., Werner, B., Heide, T., Curtis, C., Barnes, C.P., Sottoriva, A., Graham, T.A. (2018)
+						   Nature Genetics 2018 Jun;50(6):895-903. doi: 10.1038/s41588-018-0128-6.
+						   <br><br>
+						   Woods M.L., Barnes C.P. (2016)
+						   Mechanistic Modelling and Bayesian Inference Elucidates the Variable Dynamics of Double-Strand Break Repair.
+						   PLoS Comput Biol. 2016 Oct 14;12(10):e1005131. doi: 10.1371/journal.pcbi.1005131
+						   <br><br>
+						   Williams, M.J., Werner, B, Barnes, C.P., Graham, T.A., & Sottoriva, A. (2016)
+						   Identification of neutral tumor evolution across cancer types.
+						   Nature Genetics, 2016 Jan 18. doi: 10.1038/ng.3489
+						   <br><br>
+						   Chaidos, A, Barnes, C.P. et. al. (2013)
+						   Clinical drug resistance linked to interconvertible phenotypic and functional states of tumor-propagating cells in multiple myeloma.
+						   Blood. 2013 Jan 10;121(2):318-28.</p>
+					</div>
+				</header>
+			</section>
+
+			<section id="research_microbiome" class="main">
+				<header>
+					<div class="container">
+						<h2>Microbiome engineering</h2>
+						<p>Rutter, J.W., Ozdemir, T., Galimov, E.R., Quintaneiro, L.M., Rosa, L., Thomas, G.M., Cabreiro, F., Barnes, C.P. (2019).
+						  Detecting Changes in the Caenorhabditis elegans Intestinal Environment Using an Engineered Bacterial Biosensor.
+						  ACS Synth Biol, doi:10.1021/acssynbio.9b00166
+						  <br><br>
+						  Shaw, L., Bassam, H., Barnes, C.P., Walker, A., Klein, N., Balloux, F. (2019).
+						  Modelling microbiome recovery after antibiotics using a stability landscape framework.
+						  ISME Journal, doi:10.1038/s41396-019-0392-1
+						  <br><br>
+						  Fedorec, A.J.H., Ozdemir, T., Doshi, A., Ho, Y.-.K., Rosa, L., Rutter, J., ...Barnes, C.P. (2019).
+						  Two New Plasmid Post-segregational Killing Mechanisms for the Implementation of Synthetic Gene Networks in Escherichia coli.
+						  iScience, doi:10.1016/j.isci.2019.03.019
+						  <br><br>
+						  Ozdemir, T., Fedorec, A.J.H., Danino, T., Barnes, C.P. (2018).
+						  Synthetic Biology and Engineered Live Biotherapeutics: Toward Increasing System Complexity.
+						  Cell systems, 7 (1), 5-16. doi:10.1016/j.cels.2018.06.008
+						</p>
+					</div>
+				</header>
+			</section>
+			
+			<section id="research_grn" class="main">
+				<header>
+					<div class="container">
+						<h2>Gene regulatory networks</h2>
+						<p>Perez-Carrasco, R., Barnes, C.P., Schaerli, Y., Isalan, M., Briscoe, J., Page, K.M. (2018).
+						  Combining a Toggle Switch and a Repressilator within the AC-DC Circuit Generates Distinct Dynamical Behaviors.
+						  Cell systems, doi:10.1016/j.cels.2018.02.008
+						  <br><br>
+						  Leon, M., Woods, M.L., Fedorec, A.J.H., & Barnes, C.P. (2016)
+						  A computational method for the investigation of multistable systems and its application to genetic switches
+						  BMC Systems Biology 2016 Dec 7;10(1):130.
+						  <br><br>
+						  Woods, M., Leon, M., Perez-Carrasco, R. & Barnes, C.P. (2016)
+						  A statistical approach reveals designs for the most robust stochastic gene oscillators.
+						  ACS Synthetic Biology 5 (6), pp 459–470
+						  <br><br>
+						  Cohen, M., Kicheva, A., Ribeiro, A., Blassberg, R., Page, K. M., Barnes, C. P. & Briscoe, J. (2015). 
+						  Ptch1 and Gli regulate Shh signalling dynamics via multiple mechanisms. 
+						  Nature Communications, 6. doi:10.1038/ncomms7709
+						  <br><br>
+						  Cohen, M., Page, K. M., Perez-Carrasco, R., Barnes, C. P., & Briscoe, J. (2014). 
+						  A theoretical framework for the regulation of Shh morphogen-controlled gene expression.
+						  Development, 141(20), 3868-3878. doi:10.1242/dev.112573
+						  <br><br>
+						  Liepe, J., Kirk, P., Filippi, S., Toni, T., Barnes, C. P., & Stumpf, M. P. H. (2014).
+						  A framework for parameter estimation and model selection from experimental data in systems biology using approximate Bayesian computation.
+						  Nature Protocols, 9(2), 439-456. doi:10.1038/nprot.2014.025
+						</p>
+					</div>
+				</header>
+			</section>
+
+			<section id="research_biocomp" class="main">
+				<header>
+					<div class="container">
+						<h2>Biological computing</h2>
+						<p>Dalchau, N., Szép, G., Hernansaiz-Ballesteros, R., Barnes, C.P., Cardelli, L., Phillips, A., Csikász-Nagy, A. (2018).
+						  Computing with biological switches and clocks.
+						  Natural Computing, 1-19. doi:10.1007/s11047-018-9686-x
+						  <br><br>
+						  Boeing, P., Leon, M., Nesbeth, D.N., Finkelstein, A., Barnes, C. (2018).
+						  Towards an Aspect-Oriented Design and Modelling Framework for Synthetic Biology.
+						  Processes, 6 (9), doi:10.3390/pr6090167
+						</p>
+					</div>
+				</header>
 			</section>
 
 		<!-- Footer -->
