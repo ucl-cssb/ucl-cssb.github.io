@@ -38,7 +38,7 @@
 		<div class="container">
 			<!--- PROJECT - cartoons ----->
 			<div class="row">
-				<div class="col-3 col-12-narrow">
+				<div class="col-4 col-12-narrow">
 					<section>
 						<span class="feature-icon"><a href="#cancer_popup" class="icon solid fa-dna"></a></span>
 						<header>
@@ -46,7 +46,7 @@
 						</header>
 					</section>
 				</div>
-				<div class="col-3 col-12-narrow">
+				<div class="col-4 col-12-narrow">
 					<section>
 						<span class="feature-icon"><a href="#microbiome_popup" class="icon solid fa-microscope"></a></span>
 						<header>
@@ -54,19 +54,19 @@
 						</header>
 					</section>
 				</div>
-				<div class="col-3 col-12-narrow">
+				<!-- <div class="col-3 col-12-narrow">
 					<section>
 						<span class="feature-icon"><a href="#grn_popup" class="icon solid fa-share-alt"></a></span>
 						<header>
 							<h3>Gene regulatory networks</h3>
 						</header>
 					</section>
-				</div>
-				<div class="col-3 col-12-narrow">
+				</div> -->
+				<div class="col-4 col-12-narrow">
 					<section>
 						<span class="feature-icon"><a href="#biocomp_popup" class="icon solid fa-microchip"></a></span>
 						<header>
-							<h3>Biological computing</h3>
+							<h3>Biological computation</h3>
 						</header>
 					</section>
 				</div>
@@ -128,7 +128,7 @@
 
 			<a href="#x" class="overlay" id="biocomp_popup"></a>
 			<div class="popup">
-				<h2>Biological computing</h2>
+				<h2>Biological computation</h2>
 				<p>Biological organisms comprise complex information processing systems and computation is present at
 					every level, from protein and DNA nanomachines, through cellular gene and signalling networks to
 					tissues, brains and ecosystems. Thus, computation can be seen to be a fundamental and unifying
@@ -541,24 +541,52 @@
 	</header>
 </section>
 
-<section id="research_grn" class="main">
+<section id="research_biocomp" class="main">
 	<header>
 		<div class="container">
-			<h2>Gene regulatory networks</h2>
+			<h2>Biological computation</h2>
 			<figure>
-				<img width="50%" src="images/science/fig10-toggle-osc-v2.jpg" alt="" />
-				<figcaption>Fig: Post-translational coupling of an oscillator and a bistable switch</figcaption>
+				<img width="50%" src="images/science/logic_gate_sim.jpg" alt="" />
+				<figcaption>Fig: Patterning as a spatial computation. Each panel represents a different interpretation
+					of a morphogen gradient produced from two sources A and B</figcaption>
 			</figure>
-                        <p> Otero-Muras, I., Perez-Carrasco, R., Banga, J.R., Barnes, C.P. (2023). Automated design of gene circuits with optimal mushroom-bifurcation behavior. iScience, 26 (6), doi:10.1016/j.isci.2023.106836</p>
-		        <p>Perez-Carrasco, R., Barnes, C.P., Schaerli, Y., Isalan, M., Briscoe, J., Page, K.M. (2018).
+		    
+			<p> AJH Fedorec, NJ Treloar, KY Wen, L Dekker, QH Ong, G Jurkeviciute, ... (2023)
+				Emergent digital bio-computation through spatial diffusion and engineered bacteria
+				bioRxiv, 2023.07. 07.548081 </p>
+			
+			<p> Otero-Muras, I., Perez-Carrasco, R., Banga, J.R., Barnes, C.P. (2023). 
+				Automated design of gene circuits with optimal mushroom-bifurcation behavior. 
+				iScience, 26 (6), doi:10.1016/j.isci.2023.106836</p>
+
+			<p> Treloar, N.J., Braniff, N., Ingalls, B., Barnes, C.P. (2022). 
+				Deep reinforcement learning for optimal experimental design in biology. 
+				PLoS Computational Biology, 18 (11), doi:10.1371/journal.pcbi.1010695 </p>
+
+		    <p>Treloar, N., Wen, K.Y., Fedorec, A., Barnes, C. (2021). 
+				SynBioBrain: building biological computers from bacterial populations. 
+				The Project Repository Journal, doi:<a href=https://doi.org/10.54050/PRJ1117751>doi.org/10.54050/PRJ1117751</a> </p>
+
+			<p> Karkaria, B.D., Treloar, N.J., Barnes, C.P., Fedorec, A.J.H. (2020).
+				From microbial communities to distributed computing systems
+				Frontiers in Bioengineering and Biotechnology 8, 834, doi:<a href=https://doi.org/10.3389/fbioe.2020.00834>doi.org/10.3389/fbioe.2020.00834</a>
+			</p>
+			<p>Dalchau, N., Szép, G., Hernansaiz-Ballesteros, R., Barnes, C.P., Cardelli, L., Phillips, A., Csikász-Nagy, A. (2018).
+				Computing with biological switches and clocks.
+				Natural Computing, 1-19. doi:<a href=https://doi.org/10.1007/s11047-018-9686-x>10.1007/s11047-018-9686-x</a>
+			</p>
+
+			<p>Perez-Carrasco, R., Barnes, C.P., Schaerli, Y., Isalan, M., Briscoe, J., Page, K.M. (2018).
 				Combining a Toggle Switch and a Repressilator within the AC-DC Circuit Generates Distinct Dynamical Behaviors.
 				Cell Systems. doi:<a href=https://doi.org/10.1016/j.cels.2018.02.008>10.1016/j.cels.2018.02.008</a>
 			</p>
+
 			<p>
 				Boeing, P., Leon, M., Nesbeth, D.N., Finkelstein, A., Barnes, C. (2018).
 				Towards an Aspect-Oriented Design and Modelling Framework for Synthetic Biology.
 				Processes, 6 (9), doi:<a href=https://doi.org/10.3390/pr6090167>10.3390/pr6090167</a>
 			</p>
+
 			<p>
 				Leon, M., Woods, M.L., Fedorec, A.J.H., & Barnes, C.P. (2016)
 				A computational method for the investigation of multistable systems and its application to genetic switches.
@@ -584,40 +612,7 @@
 				A framework for parameter estimation and model selection from experimental data in systems biology using approximate Bayesian computation.
 				Nature Protocols, 9(2), 439-456. doi:<a href=https://doi.org/10.1038/nprot.2014.025>10.1038/nprot.2014.025</a>
 			</p>
-		</div>
-	</header>
-</section>
 
-<section id="research_biocomp" class="main">
-	<header>
-		<div class="container">
-			<h2>Biological computing</h2>
-			<figure>
-				<img width="50%" src="images/science/logic_gate_sim.jpg" alt="" />
-				<figcaption>Fig: Patterning as a spatial computation. Each panel represents a different interpretation
-					of a morphogen gradient produced from two sources A and B</figcaption>
-			</figure>
-		    
-			<p> AJH Fedorec, NJ Treloar, KY Wen, L Dekker, QH Ong, G Jurkeviciute, ...
-				Emergent digital bio-computation through spatial diffusion and engineered bacteria
-				bioRxiv, 2023.07. 07.548081 </p>
-			
-			<p> Treloar, N.J., Braniff, N., Ingalls, B.,
-	Barnes, C.P. (2022). Deep reinforcement learning for optimal
-	experimental design in biology. PLoS Computational Biology, 18
-	(11), doi:10.1371/journal.pcbi.1010695 </p>
-
-		  
-		        <p>Treloar, N., Wen, K.Y., Fedorec, A., Barnes, C. (2021). SynBioBrain: building biological computers from bacterial populations. The Project Repository Journal, doi:<a href=https://doi.org/10.54050/PRJ1117751>doi.org/10.54050/PRJ1117751</a> </p>
-
-			<p> Karkaria, B.D., Treloar, N.J., Barnes, C.P., Fedorec, A.J.H. (2020).
-				From microbial communities to distributed computing systems
-				Frontiers in Bioengineering and Biotechnology 8, 834, doi:<a href=https://doi.org/10.3389/fbioe.2020.00834>doi.org/10.3389/fbioe.2020.00834</a>
-			</p>
-			<p>Dalchau, N., Szép, G., Hernansaiz-Ballesteros, R., Barnes, C.P., Cardelli, L., Phillips, A., Csikász-Nagy, A. (2018).
-				Computing with biological switches and clocks.
-				Natural Computing, 1-19. doi:<a href=https://doi.org/10.1007/s11047-018-9686-x>10.1007/s11047-018-9686-x</a>
-			</p>
 		</div>
 	</header>
 </section>
